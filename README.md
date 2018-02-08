@@ -7,3 +7,14 @@ error.GitError: platform/external/vixl rev-list (u'^3da731547aa872800d4034bc0e15
 停止在文件系统边界（未设置 GIT_DISCOVERY_ACROSS_FILESYSTEM）。
 
 ```
+## 使用方法
+
+下载脚本，放入源码的同步目录(.repo的上级目录)，执行python3 repair.py
+
+输入的name示例为 platform/external/vixl (没有空格，在终端直接双击选中Shift+Ctrl+C复制)
+
+## 说明
+
+默认包含的xml是 .repo/manifests/default.xml .repo/manifests/snipper/aicp.xml
+
+根据你同步的源码自己修改
